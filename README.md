@@ -19,9 +19,9 @@ A **decentralized crowdfunding platform** built with **React** and **Thirdweb**,
 ## 🛠️ Tech Stack  
 
 <p align="center">
-  <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="50" height="50"/> &nbsp;
-  
-  <img src="https://cdn.worldvectorlogo.com/logos/ethereum-1.svg" alt="Ethereum" width="50" height="50"/> &nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="50" height="50"/> &nbsp;&nbsp;
+  <img src="https://avatars.githubusercontent.com/u/83314194?s=200&v=4" alt="Thirdweb" width="50" height="50"/> &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/ethereum-1.svg" alt="Ethereum" width="50" height="50"/> &nbsp;&nbsp;
   <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind CSS" width="50" height="50"/>
 </p>  
 
