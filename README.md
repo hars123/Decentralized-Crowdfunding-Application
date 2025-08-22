@@ -1,23 +1,33 @@
 # 🌐 Crowdfunding Web App  
 
-![Logo](https://dummyimage.com/200x60/000/fff&text=CrowdFund+App)  
+<p align="center">
+  <img src="https://dummyimage.com/400x100/0f172a/ffffff&text=CrowdFund+Web+App" alt="Crowdfunding Logo" width="400"/>
+</p>  
 
-A decentralized crowdfunding platform built with **React** and **Thirdweb**, allowing users to launch and support campaigns using blockchain technology.  
-
----
-
-## ✨ Features
-- 🚀 **Create Campaigns** – Start your fundraising campaigns on the blockchain.  
-- 💸 **Contribute Securely** – Make contributions directly via crypto wallet.  
-- 📊 **Track Progress** – Monitor funding goals in real-time.  
-- 🔒 **Blockchain Powered** – Secure, transparent, and trustless transactions.  
+A **decentralized crowdfunding platform** built with **React** and **Thirdweb**, enabling users to create, manage, and support campaigns on the blockchain securely.  
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Features  
+- 🚀 **Create Campaigns** – Start fundraising campaigns directly on the blockchain.  
+- 💸 **Contribute Securely** – Contribute with your crypto wallet (MetaMask).  
+- 📊 **Track Progress** – View real-time funding status and campaign details.  
+- 🔒 **Blockchain Powered** – Transparent and trustless transactions.  
+
+---
+
+## 🛠️ Tech Stack  
+
+<p align="center">
+  <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="50" height="50"/> &nbsp;&nbsp;
+  <img src="https://avatars.githubusercontent.com/u/83314194?s=200&v=4" alt="Thirdweb" width="50" height="50"/> &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/ethereum-1.svg" alt="Ethereum" width="50" height="50"/> &nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="Tailwind CSS" width="50" height="50"/>
+</p>  
+
 - **Frontend:** React.js, Tailwind CSS  
 - **Web3 Integration:** Thirdweb SDK  
-- **Blockchain:** Ethereum / Polygon (via Thirdweb)  
+- **Blockchain:** Ethereum  
 - **Wallet Support:** MetaMask & others  
 
 ---
@@ -26,5 +36,5 @@ A decentralized crowdfunding platform built with **React** and **Thirdweb**, all
 
 ### 1. Clone the repo  
 ```bash
-git clone https://github.com/your-username/crowdfunding-app.git
+git clone https://github.com/hars123/crowdfunding-app.git
 cd crowdfunding-app
