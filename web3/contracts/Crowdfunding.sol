@@ -44,8 +44,7 @@ function createCampaign(
 }
 
 
-     function donatetoCampaign(uint256 _id )public payable
-     {
+     function donatetoCampaign(uint256 _id )public payable{
         uint256 amount = msg.value;
         Campaign storage campaign = campaigns[_id];
         campaign.donators.push(msg.sender);
@@ -55,7 +54,7 @@ function createCampaign(
             campaign.amountCollected = campaign.amountCollected + amount;
         }
 
-     }
+}
 
      function getDonators(){}
 
