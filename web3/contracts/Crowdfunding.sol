@@ -24,7 +24,7 @@ function createCampaign(
     uint256 _target,
     uint256 _deadline,
     string memory _image
-    ) public return (uint256) {
+    ) public returns (uint256) {
         Campaign storage campaign = campaigns[numberOfCampaigns]
 
         // is everything is ok 
@@ -44,7 +44,7 @@ function createCampaign(
 }
 
 
-     function donatetoCampaign(uint256 _id )public payable{
+     function donateToCampaign(uint256 _id )public payable{
         uint256 amount = msg.value;
         Campaign storage campaign = campaigns[_id];
         campaign.donators.push(msg.sender);
@@ -56,6 +56,12 @@ function createCampaign(
 
 }
 
-     function getDonators(){}
+     function getDonators(uint256 _id) view public returns (address[] memory, uint256[] memory) {
+        return (Campaigns [_id].donators, campaigns[_id].donations);
+     }
+
+     function getCampaigns() public view returns (Campaign[] memory) {
+        Campaign[] memory allCampaigns = new Campaign[] (numberOfCampaigns);
+     }
 
 }
